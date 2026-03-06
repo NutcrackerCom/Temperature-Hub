@@ -28,6 +28,9 @@ build: $(BIN_DIR)
 run: build
 	@$(BIN)
 
+test:
+	$(GO) test ./internal/store/ -v
+
 clean:
 	@rm -rf $(BIN_DIR)
 	@# иногда полезно чистить кеш

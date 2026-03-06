@@ -1,0 +1,13 @@
+# Binaries
+bin/
+dist/
+out/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out

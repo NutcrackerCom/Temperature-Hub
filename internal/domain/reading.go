@@ -7,3 +7,8 @@ type Reading struct {
 	Timestamp time.Time
 	TempC     float64
 }
+
+type ReadingFilter struct {
+	SensorID string
+	Limit    int
+}
